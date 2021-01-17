@@ -1,6 +1,7 @@
 <?php
 // var_dump($_POST);
 // exit();
+ini_set('display_errors', 1);
 session_start();
 include('functions.php');
 $pdo = connect_to_db();

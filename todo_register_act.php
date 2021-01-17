@@ -2,7 +2,7 @@
 
 // var_dump($_POST);
 // exit();
-
+ini_set('display_errors', 1);
 // 関数ファイル読み込み
 include('functions.php');
 
